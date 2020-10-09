@@ -1,0 +1,24 @@
+<template>
+  <div class="separator">
+    <h1>{{ title }}</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Separator',
+  props: {
+    title: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+.separator {
+  border-top: 1px solid black;
+  h1 {
+    margin-top: 0;
+  }
+}
+</style>
