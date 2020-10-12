@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     getImgUrl (pdf) {
-      return '../public/calls/' + pdf + '.pdf'
+      return pdf + '.pdf'
     }
   }
 }

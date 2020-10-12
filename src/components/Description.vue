@@ -55,6 +55,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .description {
+    padding-right: 0.5em;
   .container {
     .vidan-description {
         column-count: 2;

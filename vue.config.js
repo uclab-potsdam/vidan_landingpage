@@ -9,7 +9,7 @@ module.exports = {
             {
               loader: 'url-loader',
               options: {
-                name: 'files/[name].[hash:8].[ext]'
+                name: 'calls/[name].[hash:8].[ext]'
               }
             }
           ]

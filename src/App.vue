@@ -57,7 +57,7 @@ export default {
       .logo-container {
         position: sticky;
         position: -webkit-sticky; /* Safari */
-        top: 30px;
+        top: 2%;
 
         img {
           width: 120px;
