@@ -17,7 +17,7 @@
     {
       "title": "Data Talks / Data Walks",
       "category": "course",
-      "description": "Commuting is a common, daily experience. Often labeled as an annoying and demanding practice, it is becoming a more and more present aspect in our lives. What can we learn from who is commuting everyday?",
+      "description": "Sensors are more and more pervasive in our everyday life. What happens if we use them to monitor subjective experiences? “Data Talks / Data Walks” is a hybrid exercise combining journalism, data visualization and coding.",
       "link": "",
       "img": "datainterviews"
     }
@@ -28,12 +28,12 @@
     {
       "title": "Call for Evaluators",
       "open": true,
-      "link": ""
+      "link": "random_pdf"
     },
     {
       "title": "Call for Journalists",
       "open": true,
-      "link": ""
+      "link": "random_pdf"
     }
   ],
   "team": [

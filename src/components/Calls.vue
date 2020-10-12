@@ -1,13 +1,15 @@
 <template>
   <div class="calls section-container">
-    <Separator title="Open Calls"/>
+    <Separator title="Calls"/>
     <div class="container">
       <div v-for="(call, c) in calls" :key="c" class="call" :class="{active: call.open}">
-        <div class="inner-container">
-          <h1>{{call.title}}</h1>
-          <img v-if="call.open" src="../assets/right-arrow-yellow.svg" class="navigation"/>
-          <img v-if="!call.open" src="../assets/closing-x.svg" class="navigation"/>
-        </div>
+        <a :href="getImgUrl(call.link)">
+          <div class="inner-container">
+            <h1>{{call.title}}</h1>
+            <img v-if="call.open" src="../assets/right-arrow-yellow.svg" class="navigation"/>
+            <img v-if="!call.open" src="../assets/closing-x.svg" class="navigation"/>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -26,6 +28,11 @@ export default {
     return {
       calls: Content.calls
     }
+  },
+  methods: {
+    getImgUrl (pdf) {
+      return '../assets/calls/' + pdf + '.pdf'
+    }
   }
 }
 </script>
@@ -36,6 +43,26 @@ export default {
 
   .container {
 
+    .call:hover {
+      transition: right color, 1s;
+
+      &.active {
+        transition: box-shadow 1s;
+        box-shadow: -5px 5px 0px #FB9500;
+      }
+
+      .inner-container {
+
+        .navigation {
+          right: 80px;
+        }
+
+        h1 {
+          color: #FB9500;
+        }
+      }
+    }
+
     .call {
       background-color: white;
       border: 1px solid grey;
@@ -45,15 +72,20 @@ export default {
 
         .navigation {
           position: absolute;
-          right: 80px;
+          right: 100px;
+          transition: right 1s;
           align-self: center;
         }
       }
 
       &.active {
-        box-shadow: -10px 10px 0px #FB9500;
-        border: 1px solid #FB9500;
+        cursor: pointer;
+        box-shadow: -10px 10px 0px #FFCA7C;
+        border: 1px solid #FFCA7C;
+        transition: box-shadow 1s;
+
         h1 {
+          transition: color 1s;
           color: black;
         }
       }

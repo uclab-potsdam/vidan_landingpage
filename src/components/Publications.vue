@@ -3,7 +3,7 @@
     <Separator title="Publications / Talks"/>
     <div class="container">
       <div v-if="events.length === 0">
-        <p class="description">Nothing here yet!</p>
+        <p class="description">Nothing here yet.</p>
       </div>
       <!-- Happening only if data are found in the json events -->
       <div v-if="events.length !== 0">
@@ -47,6 +47,7 @@ export default {
 .events {
   .container {
     width: 100%;
+    margin-top: 10%;
 
     .element-details {
       display: inline-flex;

@@ -11,6 +11,7 @@
             <h5 class="category">{{ project.category }}</h5>
             <h2 class="project-title">{{ project.title }}</h2>
             <p class="description">{{ project.description }}</p>
+            <img src="../assets/right-arrow.svg" class="arrow"/>
           </div>
         </a>
       </div>
@@ -49,13 +50,35 @@ export default {
     width: 100%;
     display: inline-flex;
 
+    .project-container:hover {
+      .arrow {
+        transition: margin-left 1s;
+        margin-left: 60%;
+      }
+    }
+
     .project-container {
       margin: 0 $margin;
       width: calc(100% / 3);
 
+      .project-title {
+        margin: 0 !important;
+      }
+
+      .category {
+        margin-top: 20px;
+      }
+
       img {
         width: 100%;
+
+        &.arrow {
+          width: 40%;
+          margin-top: $margin;
+          transition: margin-left 1s;
+        }
       }
+
     }
   }
 }

@@ -2,7 +2,7 @@
   <div id="app">
     <div class="content-body">
       <div id="logo" class="container">
-        <div class="logo-container">
+        <div class="logo-container" @click="scrollTop()">
           <img src="./assets/logo.svg" class="sticky"/>
         </div>
       </div>
@@ -32,6 +32,11 @@ export default {
     Calls,
     Description,
     Team
+  },
+  methods: {
+    scrollTop () {
+      window.scrollTo(0, 0)
+    }
   }
 }
 </script>
