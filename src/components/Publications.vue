@@ -1,5 +1,5 @@
 <template>
-  <div class="events">
+  <div class="events section-container">
     <Separator title="Publications / Talks"/>
     <div class="container">
       <div v-if="events.length === 0">
@@ -45,7 +45,6 @@ export default {
 @import "@/style/_global.scss";
 
 .events {
-  margin-bottom: 5%;
   .container {
     width: 100%;
 

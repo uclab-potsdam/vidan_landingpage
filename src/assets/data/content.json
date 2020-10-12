@@ -4,14 +4,14 @@
       "title": "Time of a Square",
       "category": "project",
       "description": "What if we could read the city's time like we read a book? What characters stick out, which sentences stay with us? In this article, we explore the rhythm of one of the chapters in this book: a tale about the time of Rosenthaler Platz.",
-      "link": "",
+      "link": "https://uclab.fh-potsdam.de/rosenthaler/",
       "img": "times"
     },
     {
       "title": "Commuting Stories",
       "category": "project",
       "description": "Commuting is a common, daily experience. Often labeled as an annoying and demanding practice, it is becoming a more and more present aspect in our lives. What can we learn from who is commuting everyday?",
-      "link": "",
+      "link": "https://uclab.fh-potsdam.de/commuter/",
       "img": "commuting"
     },
     {
@@ -34,6 +34,32 @@
       "title": "Call for Journalists",
       "open": true,
       "link": ""
+    }
+  ],
+  "team": [
+    {
+      "name": "Prof. Marian Dörk",
+      "role": "Research and project lead"
+    },
+    {
+      "name": "Jonas Rogge",
+      "role": "Research associate"
+    },
+    {
+      "name": "Francesca Morini",
+      "role": "Research associate"
+    },
+    {
+      "name": "Tobias Kauer",
+      "role": "Research associate"
+    },
+    {
+      "name": "Lena Zagora",
+      "role": "Student researcher"
+    },
+    {
+      "name": "Meraj Sherafi",
+      "role": "Student researcher"
     }
   ]
 }

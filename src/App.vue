@@ -3,7 +3,7 @@
     <div class="content-body">
       <div id="logo" class="container">
         <div class="logo-container">
-          <img src="./assets/logo.svg"/>
+          <img src="./assets/logo.svg" class="sticky"/>
         </div>
       </div>
         <div id="content" class="container">
@@ -46,14 +46,17 @@ export default {
   margin-top: 2%;
 
   .container {
-    position: sticky;
 
     &#logo {
-      border: 1px solid lightblue;
       width: 15%;
       .logo-container {
+        position: sticky;
+        position: -webkit-sticky; /* Safari */
+        top: 30px;
+
         img {
-          width: 100px;
+          width: 120px;
+          height: auto;
           display: block;
           margin: 0 auto;
         }
@@ -61,11 +64,14 @@ export default {
     }
 
     &#content {
-      background-color: lightblue;
       width: 90%;
 
       margin-left: 2%;
       padding-left: 2%;
+
+      .section-container {
+        margin-bottom: 10%;
+      }
     }
   }
 }

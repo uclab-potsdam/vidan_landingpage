@@ -1,16 +1,18 @@
 <template>
-  <div class="projects">
+  <div class="projects section-container">
     <Separator title="Projects and Activities"/>
     <div class="container">
       <div v-for="(project, p) in projects" :key="p" class="project-container">
-        <div>
-          <img :src="getImgUrl(project.img)"/>
-        </div>
-        <div>
-          <h5 class="category">{{ project.category }}</h5>
-          <h2 class="project-title">{{ project.title }}</h2>
-          <p class="description">{{ project.description }}</p>
-        </div>
+        <a :href="project.link">
+          <div>
+            <img :src="getImgUrl(project.img)"/>
+          </div>
+          <div>
+            <h5 class="category">{{ project.category }}</h5>
+            <h2 class="project-title">{{ project.title }}</h2>
+            <p class="description">{{ project.description }}</p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -43,7 +45,6 @@ export default {
 @import "@/style/_global.scss";
 
 .projects {
-  margin-bottom: 5%;
   .container {
     width: 100%;
     display: inline-flex;

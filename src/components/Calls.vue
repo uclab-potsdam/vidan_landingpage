@@ -1,5 +1,5 @@
 <template>
-  <div class="calls">
+  <div class="calls section-container">
     <Separator title="Open Calls"/>
     <div class="container">
       <div v-for="(call, c) in calls" :key="c" class="call" :class="{active: call.open}">
