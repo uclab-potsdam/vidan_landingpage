@@ -46,6 +46,8 @@ export default {
   margin-top: 2%;
 
   .container {
+    position: sticky;
+
     &#logo {
       border: 1px solid lightblue;
       width: 15%;
@@ -59,7 +61,7 @@ export default {
     }
 
     &#content {
-      background-color: teal;
+      background-color: lightblue;
       width: 90%;
 
       margin-left: 2%;
