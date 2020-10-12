@@ -3,7 +3,7 @@
     <Separator title="Calls"/>
     <div class="container">
       <div v-for="(call, c) in calls" :key="c" class="call" :class="{active: call.open}">
-        <a :href="getImgUrl(call.link)">
+        <a :href="getImgUrl(call.link)" download>
           <div class="inner-container">
             <h1>{{call.title}}</h1>
             <img v-if="call.open" src="../assets/right-arrow-yellow.svg" class="navigation"/>
@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     getImgUrl (pdf) {
-      return '../assets/calls/' + pdf + '.pdf'
+      return '../public/calls/' + pdf + '.pdf'
     }
   }
 }

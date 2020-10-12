@@ -11,7 +11,8 @@
             <h5 class="category">{{ project.category }}</h5>
             <h2 class="project-title">{{ project.title }}</h2>
             <p class="description">{{ project.description }}</p>
-            <img src="../assets/right-arrow.svg" class="arrow"/>
+            <img v-if="project.link !== ''" src="../assets/right-arrow.svg" class="arrow"/>
+            <img v-if="project.link === ''" src="../assets/coming-soon.svg" class="soon"/>
           </div>
         </a>
       </div>
@@ -51,6 +52,10 @@ export default {
     display: inline-flex;
 
     .project-container:hover {
+      .soon {
+        transition: opacity 1s;
+        opacity: 1;
+      }
       .arrow {
         transition: margin-left 1s;
         margin-left: 60%;
@@ -71,6 +76,13 @@ export default {
 
       img {
         width: 100%;
+
+        &.soon {
+          width: 40%;
+          margin-top: $margin;
+          opacity: 0.5;
+          transition: opacity 1s;
+        }
 
         &.arrow {
           width: 40%;
