@@ -62,5 +62,14 @@ export default {
     }
   }
 }
-
+@media (max-width: 670px) {
+    .description {
+        padding-right: 0.5em;
+      .container {
+        .vidan-description {
+            column-count: 1;
+        }
+      }
+    }
+}
 </style>

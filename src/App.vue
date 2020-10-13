@@ -81,4 +81,37 @@ export default {
   }
 }
 
+@media (max-width: 670px) {
+
+  .content-body {
+    display: inline-block;
+
+    .container {
+      &#logo {
+        width: 100%;
+        margin-bottom: 5%;
+        .logo-container {
+
+          img {
+            width: 50px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      &#content {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+
+        .section-container {
+          margin-bottom: 20%;
+        }
+      }
+    }
+  }
+}
+
 </style>

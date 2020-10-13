@@ -82,4 +82,20 @@ export default {
 
   }
 }
+
+@media (max-width: 670px) {
+  .team {
+    .partners-funding {
+      display: inline-block;
+
+      .logos {
+        width: 100%;
+        img {
+          width: 50px;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}
 </style>

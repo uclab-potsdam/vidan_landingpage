@@ -33,4 +33,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
-// Colors
+// Queries
+@media (max-width: 670px) {
+
+  h1 {
+    font-size: 18px;
+  }
+}

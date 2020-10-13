@@ -94,4 +94,35 @@ export default {
     }
   }
 }
+
+@media (max-width: 670px) {
+  .projects {
+    .container {
+    display: inline-block;
+
+    .project-container {
+      margin: 30px auto;
+      width: 100%;
+
+      img {
+        width: 100%;
+
+        &.soon {
+          width: 20%;
+          margin-top: $margin * 4;
+          margin-left: 40%;
+          opacity: 0.5;
+        }
+
+        &.arrow {
+          width: 20%;
+          margin-left: 40%;
+          margin-top: $margin * 4;
+        }
+      }
+
+    }
+    }
+  }
+}
 </style>

@@ -67,6 +67,7 @@ export default {
     .call {
       background-color: white;
       border: 1px solid grey;
+      margin: 40px;
 
       .inner-container {
         display: inline-flex;
@@ -92,8 +93,6 @@ export default {
         }
       }
 
-      margin: 40px;
-
       h1 {
         cursor: not-allowed;
         color: grey;
@@ -103,4 +102,24 @@ export default {
   }
 }
 
+@media (max-width: 670px) {
+  .call {
+    margin: 20px !important;
+    .inner-container {
+      width: 100%;
+      display: inline-block !important;
+      text-align: center;
+
+      .navigation {
+        display: none;
+      }
+
+      h1 {
+        font-size: 18px;
+        padding: 0 !important;
+      }
+    }
+
+  }
+}
 </style>
