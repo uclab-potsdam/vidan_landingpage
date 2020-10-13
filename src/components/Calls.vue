@@ -49,6 +49,10 @@ export default {
       &.active {
         transition: box-shadow 1s;
         box-shadow: -5px 5px 0px #FB9500;
+
+        h1 {
+          color: #FB9500;
+        }
       }
 
       .inner-container {
@@ -57,9 +61,6 @@ export default {
           right: 80px;
         }
 
-        h1 {
-          color: #FB9500;
-        }
       }
     }
 
@@ -85,6 +86,7 @@ export default {
         transition: box-shadow 1s;
 
         h1 {
+          cursor: pointer;
           transition: color 1s;
           color: black;
         }
@@ -93,6 +95,7 @@ export default {
       margin: 40px;
 
       h1 {
+        cursor: not-allowed;
         color: grey;
         padding: 5px 5px 5px 55px;
       }
