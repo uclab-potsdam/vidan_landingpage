@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="153px" viewBox="0 0 204 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-4" transform="translate(-145.000000, -84.000000)" stroke="#000000">
+            <g id="Group" transform="translate(146.000000, 85.000000)">
+                <polygon id="Rectangle" fill="#5484FF" points="0 20.4814658 71 0 71 70.5185342 0 91"></polygon>
+                <polygon id="Rectangle-Copy-18" fill="#9B75BD" points="39 30.6937648 79 19 79 59.3062352 39 71"></polygon>
+                <polygon id="Rectangle-Copy-28" fill="#B86FA2" points="46 61.6937648 86 50 86 90.3062352 46 102"></polygon>
+                <polygon id="Rectangle-Copy-18" fill="#D76884" points="85 38.5618252 125 27 125 97.4381748 85 109"></polygon>
+                <polygon id="Rectangle-Copy-24" fill="#F2626C" points="111 58.1499246 151 46 151 116.850075 111 129"></polygon>
+                <polygon id="Rectangle-Copy-26" fill="#FF6060" points="131 79.4814658 202 59 202 129.518534 131 150"></polygon>
+                <line x1="0" y1="20" x2="131" y2="81" id="Path-8"></line>
+                <line x1="0" y1="91" x2="131" y2="151" id="Path-9"></line>
+                <line x1="71" y1="0" x2="202" y2="60" id="Path-10"></line>
+            </g>
+        </g>
+    </g>
+</svg>

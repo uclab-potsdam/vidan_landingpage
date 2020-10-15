@@ -2,7 +2,7 @@
   <div class="projects section-container">
     <Separator title="Projects and Activities"/>
     <div class="container">
-      <div v-for="(project, p) in projects" :key="p" class="project-container">
+      <div v-for="(project, p) in projects" :key="p" class="project-container" :class="{soon: !project.link.length}">
         <a :href="project.link">
           <div>
             <img :src="getImgUrl(project.img)"/>
@@ -65,6 +65,10 @@ export default {
     .project-container {
       margin: 0 $margin;
       width: calc(100% / 3);
+
+      &.soon {
+       pointer-events: none;
+      }
 
       .project-title {
         margin: 0 !important;

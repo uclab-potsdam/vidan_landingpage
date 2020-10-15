@@ -12,7 +12,7 @@
         <div class="logos">
           <a href="https://uclab.fh-potsdam.de/"><img src="../assets/logos/uclab_logo.svg"/></a>
           <a href="https://www.fh-potsdam.de/"><img src="../assets/logos/fhp_logo.svg"/></a>
-          <a href="https://civity.de/de/"><img src="../assets/logos/civity_logo.svg"/></a>
+          <a href="https://civity.de/en/"><img src="../assets/logos/civity_logo.svg"/></a>
         </div>
       </div>
       <div class="section">
@@ -74,6 +74,7 @@ export default {
         margin-top: 20px;
         img {
           width: 150px;
+          margin-top: 30px;
           margin-right: 100px;
           vertical-align: top;
         }

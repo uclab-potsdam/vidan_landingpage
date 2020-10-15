@@ -1,12 +1,5 @@
 {
   "projects": [
-      {
-      "title": "Time of a Square",
-      "category": "project",
-      "description": "What if we could read the city's time like we read a book? What characters stick out, which sentences stay with us? In this article, we explore the rhythm of one of the chapters in this book: a tale about the time of Rosenthaler Platz.",
-      "link": "https://uclab.fh-potsdam.de/rosenthaler/",
-      "img": "times"
-    },
     {
       "title": "Commuting Stories",
       "category": "project",

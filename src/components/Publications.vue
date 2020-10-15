@@ -5,7 +5,7 @@
       <div v-if="events.length === 0">
         <p class="description">Nothing here yet.</p>
       </div>
-      <!-- Happening only if data are found in the json events -->
+      <!-- Happening only if data are found in the json events part-->
       <div v-if="events.length !== 0">
         <div v-for="(element, e) in events" :key="e">
           <div class="element-details">
