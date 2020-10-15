@@ -130,6 +130,10 @@ export default {
             margin: 0 auto;
             opacity: 0;
           }
+
+          .mobile {
+            display: none;
+          }
         }
       }
     }
