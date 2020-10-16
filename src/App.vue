@@ -135,6 +135,7 @@ export default {
       .header {
         p.description {
           margin: 0;
+          margin-bottom: 10px;
 
           a {
             text-decoration: underline;
