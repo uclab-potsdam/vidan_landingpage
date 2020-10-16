@@ -64,6 +64,7 @@ export default {
 
     .project-container {
       margin: 0 $margin;
+      padding-left: 20px;
       width: calc(100% / 3);
 
       &.soon {
@@ -99,13 +100,14 @@ export default {
   }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 780px) {
   .projects {
     .container {
     display: inline-block;
 
     .project-container {
       margin: 30px auto;
+      padding-left: 0px !important;
       width: 100%;
 
       img {

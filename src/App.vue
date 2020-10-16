@@ -15,6 +15,15 @@
         </div>
       </div>
         <div id="content" class="container">
+          <div class="header">
+            <p class="description">
+              A collaborative research project on <i>Visual and Dynamic Arrangements
+              of Narratives</i> at UCLAB, FH Potsdam —
+              <a href="https://twitter.com/hashtag/vidanfhp?src=hashtag_click">
+                #VidanFHP
+              </a>
+            </p>
+          </div>
           <!-- Only showing component if data are present -->
           <Projects v-if="Content.projects.length"/>
           <Publications v-if="Content.events.length"/>
@@ -88,33 +97,17 @@ export default {
     &#logo {
       width: 15%;
 
-      .logo-container:hover {
-        .title-container {
-
-          .title {
-            transition: opacity 0.5s;
-            opacity: 0;
-          }
-          img {
-            transition: opacity 0.5s;
-            opacity: 1;
-          }
-        }
-      }
-
       .logo-container {
-        // background-color: lightblue;
         position: sticky;
         position: -webkit-sticky; /* Safari */
         height: calc(100vh - 2%);
         padding-left: 25%;
-        top: 2%;
+        top: 15%;
 
         .title-container {
-          // background-color: teal;
           .title {
             font-size: 10rem;
-            transform-origin: 190px 260px;
+            transform-origin: 190px 250px;
             transform: rotate(-90deg);
             color: black;
             font-variation-settings: 'wght'  var(--text-axis);
@@ -122,13 +115,13 @@ export default {
           }
 
           img {
-            width: 70%;
-            top: 20vh;
+            width: 60%;
+            bottom: 140px;
             height: auto;
             display: block;
             position: absolute;
             margin: 0 auto;
-            opacity: 0;
+            opacity: 1;
           }
 
           .mobile {
@@ -139,6 +132,15 @@ export default {
     }
 
     &#content {
+      .header {
+        p.description {
+          margin: 0;
+
+          a {
+            text-decoration: underline;
+          }
+        }
+      }
       width: 90%;
 
       margin-left: 2%;
@@ -168,13 +170,13 @@ export default {
               display: none;
             }
 
-            img {
+            img.mobile {
               position: static;
               width: 50%;
               height: auto;
               display: block;
               opacity: 1;
-              margin-left: 20px;
+              margin-left: 10px;
             }
 
             .logo {
@@ -188,6 +190,14 @@ export default {
         width: 100%;
         margin-left: 0;
         padding-left: 0;
+
+        .header {
+          p.description {
+            font-size: 10px;
+            margin: 0;
+            display: none;
+          }
+        }
 
         .section-container {
           margin-bottom: 20%;
