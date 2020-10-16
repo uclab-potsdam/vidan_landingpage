@@ -14,7 +14,7 @@
               Collaborative research on <i>Visual and Dynamic Arrangements of Narratives</i>
               at UCLAB, FH Potsdam —
               <a href="https://twitter.com/hashtag/vidanfhp?src=hashtag_click">
-                #VidanFHP
+                #vidanfhp
               </a>
             </p>
           </div>

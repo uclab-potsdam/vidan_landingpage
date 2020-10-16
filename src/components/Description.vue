@@ -1,6 +1,6 @@
 <template>
   <div class="description section-container">
-    <Separator title="About the project"/>
+    <Separator title="About the Project"/>
     <div class="container">
         <p class="description vidan-description">
             At the intersection of data visualization, digital storytelling,

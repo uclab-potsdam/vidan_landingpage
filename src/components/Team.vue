@@ -1,6 +1,6 @@
 <template>
   <div class="team section-container">
-    <Separator title="Team, Partners and Funding"/>
+    <Separator title="Team"/>
     <div v-for="(member, m) in team" :key="m" class="team-members">
       <div class="single-member">
         <p class="description">{{member.name}}, {{member.role}}</p>
