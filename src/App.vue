@@ -1,24 +1,18 @@
 <template>
   <div id="app">
-    <div class="content-body" v-scroll="scrollPosition">
+    <div class="content-body" v-scroll="scrollPosition" :style="`--text-axis:${scrollValue};`">
       <div id="logo" class="container">
         <div class="logo-container" @click="scrollTop()">
-          <div class="title-container">
-            <img src="./assets/logo-colors.svg" class="sticky logo"/>
+            <Logo class="sticky logo" :scroll="scrollValue"/>
+            <!-- <img src="./assets/logo-colors.svg" class="sticky logo"/> -->
             <img src="./assets/logo-mobile.svg" class="mobile"/>
-            <h1
-                class="title"
-                :style="`--text-axis:${scrollValue}; --letter-space:${scrollValue / 1000}px`">
-                Vidan
-            </h1>
-          </div>
         </div>
       </div>
         <div id="content" class="container">
           <div class="header">
             <p class="description">
-              A collaborative research project on <i>Visual and Dynamic Arrangements
-              of Narratives</i> at UCLAB, FH Potsdam —
+              Collaborative research on <i>Visual and Dynamic Arrangements of Narratives</i>
+              at UCLAB, FH Potsdam —
               <a href="https://twitter.com/hashtag/vidanfhp?src=hashtag_click">
                 #VidanFHP
               </a>
@@ -36,6 +30,7 @@
 </template>
 
 <script>
+import Logo from './components/Logo.vue'
 import Projects from './components/Projects.vue'
 import Publications from './components/Publications.vue'
 import Calls from './components/Calls.vue'
@@ -47,6 +42,7 @@ import Content from './assets/data/content.json'
 export default {
   name: 'App',
   components: {
+    Logo,
     Projects,
     Publications,
     Calls,
@@ -101,32 +97,18 @@ export default {
         position: sticky;
         position: -webkit-sticky; /* Safari */
         height: calc(100vh - 2%);
-        padding-left: 25%;
-        top: 15%;
+        padding-left: 15%;
+        top: 5%;
 
-        .title-container {
-          .title {
-            font-size: 10rem;
-            transform-origin: 190px 250px;
-            transform: rotate(-90deg);
-            color: black;
-            font-variation-settings: 'wght'  var(--text-axis);
-            letter-spacing: var(--letter-space);
-          }
+        .logo {
+          width: 100%;
+          top: 10px;
+          height: auto;
+          opacity: 1;
+        }
 
-          img {
-            width: 60%;
-            bottom: 140px;
-            height: auto;
-            display: block;
-            position: absolute;
-            margin: 0 auto;
-            opacity: 1;
-          }
-
-          .mobile {
-            display: none;
-          }
+        .mobile {
+          display: none;
         }
       }
     }
@@ -166,10 +148,6 @@ export default {
         .logo-container {
           padding: 0;
           width: 100%;
-          .title-container {
-            .title {
-              display: none;
-            }
 
             img.mobile {
               position: static;
@@ -183,7 +161,6 @@ export default {
             .logo {
               display: none;
             }
-          }
         }
       }
 

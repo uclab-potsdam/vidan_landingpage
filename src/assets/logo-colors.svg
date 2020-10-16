@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="204px" height="153px" viewBox="0 0 204 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="231px" height="259px" viewBox="0 0 231 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group</title>
     <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-4" transform="translate(-145.000000, -84.000000)" stroke="#000000">
-            <g id="Group" transform="translate(146.000000, 85.000000)">
-                <polygon id="Rectangle" fill="#5484FF" points="0 20.4814658 71 0 71 70.5185342 0 91"></polygon>
-                <polygon id="Rectangle-Copy-18" fill="#9B75BD" points="39 30.6937648 79 19 79 59.3062352 39 71"></polygon>
-                <polygon id="Rectangle-Copy-28" fill="#B86FA2" points="46 61.6937648 86 50 86 90.3062352 46 102"></polygon>
-                <polygon id="Rectangle-Copy-18" fill="#D76884" points="85 38.5618252 125 27 125 97.4381748 85 109"></polygon>
-                <polygon id="Rectangle-Copy-24" fill="#F2626C" points="111 58.1499246 151 46 151 116.850075 111 129"></polygon>
-                <polygon id="Rectangle-Copy-26" fill="#FF6060" points="131 79.4814658 202 59 202 129.518534 131 150"></polygon>
-                <line x1="0" y1="20" x2="131" y2="81" id="Path-8"></line>
-                <line x1="0" y1="91" x2="131" y2="151" id="Path-9"></line>
-                <line x1="71" y1="0" x2="202" y2="60" id="Path-10"></line>
+        <g id="Artboard" transform="translate(-121.000000, -106.000000)">
+            <g id="Group" transform="translate(122.000000, 107.000000)">
+                <path d="M29.5275591,258 L50,201 L39.8031496,201 L26.1023622,243.162775 L25.1181102,247.038462 L24.8818898,247.038462 L23.8582677,243.084478 L10.1968504,201 L0,201 L20.4330709,258 L29.5275591,258 Z M67,258 L67,201 L58,201 L58,258 L67,258 Z M98.5182482,258 C105.763382,258 111.654957,255.755495 116.192974,251.266484 C120.730991,246.777473 123,240.970467 123,233.845467 L123,233.845467 L123,225.193681 C123,218.09478 120.730991,212.287775 116.192974,207.772665 C111.654957,203.257555 105.763382,201 98.5182482,201 L98.5182482,201 L80,201 L80,258 L98.5182482,258 Z M98.7344262,250 L90,250 L90,208 L98.7344262,208 C103.481967,208 107.213115,209.548266 109.927869,212.644799 C112.642623,215.741331 114,219.716963 114,224.571696 L114,224.571696 L114,233.349578 C114,238.256795 112.642623,242.258669 109.927869,245.355201 C107.213115,248.451734 103.481967,250 98.7344262,250 L98.7344262,250 Z M135.695518,258 L140.267388,244.68956 L162.732612,244.68956 L167.26507,258 L177,258 L156.150696,201 L147.085781,201 L126,258 L135.695518,258 Z M160,236 L143,236 L151.440835,212 L151.677494,212 L160,236 Z M193.403694,258 L193.403694,216.463599 L193.635884,216.385302 L218.635004,258 L228,258 L228,201 L218.635004,201 L218.635004,242.497253 L218.402814,242.575549 L193.403694,201 L184,201 L184,258 L193.403694,258 Z" id="VIDAN" fill="#000000" fill-rule="nonzero"></path>
+                <g id="Group-17" stroke="#000000">
+                    <polygon id="Rectangle" fill="#5484FF" points="0 23.1823185 80 0 80 79.8176815 0 103"></polygon>
+                    <polygon id="Rectangle-Copy-18" fill="#737DE1" points="40 34.2679254 85 21 85 66.7320746 40 80"></polygon>
+                    <polygon id="Rectangle-Copy-28" fill="#9B75BD" points="52 63.2679254 97 50 97 95.7320746 52 109"></polygon>
+                    <polygon id="Rectangle-Copy-18" fill="#B86FA2" points="89 43.1128018 134 30 134 109.887198 89 123"></polygon>
+                    <polygon id="Rectangle-Copy-24" fill="#D76884" points="112 64.7601556 157 51 157 131.239844 112 145"></polygon>
+                    <polygon id="Rectangle-Copy-25" fill="#F2626C" points="155 65.7370797 179 59 179 139.26292 155 146"></polygon>
+                    <polygon id="Rectangle-Copy-26" fill="#FF6060" points="149 90.1823185 229 67 229 146.817682 149 170"></polygon>
+                    <line x1="0" y1="23" x2="149" y2="92" id="Path-8"></line>
+                    <line x1="0" y1="103" x2="149" y2="171" id="Path-9"></line>
+                    <line x1="80" y1="0" x2="229" y2="68" id="Path-10"></line>
+                </g>
             </g>
         </g>
     </g>
