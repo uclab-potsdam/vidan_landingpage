@@ -18,7 +18,7 @@
       <div class="section">
         <div class="label category">Funding</div>
         <div class="logos">
-          <a><img src="../assets/logos/bfbdf.png"/></a>
+          <a href="https://www.bmbf.de"><img src="../assets/logos/bmbf_logo.svg"/></a>
         </div>
       </div>
     </div>
