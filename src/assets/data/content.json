@@ -19,14 +19,9 @@
   ],
   "calls": [
     {
-      "title": "Call for Evaluations",
+      "title": "Call for Journalists",
       "open": true,
       "link": "CallEvaluation-DataInterviews"
-    },
-    {
-      "title": "Call for Journalists",
-      "open": false,
-      "link": ""
     }
   ],
   "team": [
