@@ -7,7 +7,7 @@
           <div class="inner-container">
             <h1>{{call.title}}</h1>
             <img v-if="call.open" src="../assets/right-arrow-yellow.svg" class="navigation"/>
-            <img v-if="!call.open" src="../assets/closing-x.svg" class="navigation"/>
+            <img v-if="!call.open" src="../assets/closing-x.svg" class="navigation close"/>
           </div>
         </a>
       </div>
@@ -77,6 +77,10 @@ export default {
           right: 100px;
           transition: right 1s;
           align-self: center;
+
+          &.close {
+            cursor: not-allowed;
+          }
         }
       }
 

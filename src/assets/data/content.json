@@ -1,18 +1,25 @@
 {
   "projects": [
     {
-      "title": "Commuting Stories",
+      "title": "Touch Touch Swipe",
       "category": "project",
-      "description": "Commuting is a common, daily experience. Often labeled as an annoying and demanding practice, it is becoming a more and more present aspect in our lives. What can we learn from who is commuting everyday?",
-      "link": "https://uclab.fh-potsdam.de/commutingstories/",
-      "img": "commuting"
+      "description": "How are our personal relationships mirrored in our Instagram feed? What makes us invest our valuable time into using the app each and every day? With the project ‘touch, touch, swipe’, we aimed to investigate these questions.",
+      "link": "https://uclab.fh-potsdam.de/swipe/",
+      "img": "swipe"
     },
     {
       "title": "Data Talks / Data Walks",
       "category": "course",
       "description": "Sensors are more and more pervasive in our everyday life. What happens if we use them to monitor subjective experiences? “Data Talks / Data Walks” is a hybrid exercise combining journalism, data visualization and coding.",
-      "link": "",
+      "link": "https://fhp.incom.org/workspace/9090",
       "img": "datainterviews"
+    },
+    {
+      "title": "Commuting Stories",
+      "category": "project",
+      "description": "Commuting is a common, daily experience. Often labeled as an annoying and demanding practice, it is becoming a more and more present aspect in our lives. What can we learn from who is commuting everyday?",
+      "link": "https://uclab.fh-potsdam.de/commutingstories/",
+      "img": "commuting"
     }
   ],
   "events": [
@@ -20,7 +27,7 @@
   "calls": [
     {
       "title": "Call for Journalists",
-      "open": true,
+      "open": false,
       "link": "CallEvaluation-DataInterviews"
     }
   ],

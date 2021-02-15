@@ -64,7 +64,7 @@ export default {
 
     .project-container {
       margin: 0 $margin;
-      padding-left: 20px;
+      padding-left: 10px;
       width: calc(100% / 3);
 
       &.soon {
