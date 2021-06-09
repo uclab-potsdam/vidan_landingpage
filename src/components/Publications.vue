@@ -8,13 +8,13 @@
       <!-- Happening only if data are found in the json events part-->
       <div v-if="events.length !== 0">
         <div v-for="(element, e) in events" :key="e">
-          <div class="element-details">
-            <h5 class="category">{{ element.category }},</h5>
-            <h5 class="category">{{ element.venue }},</h5>
-            <h5 v-for="(year, y) in element.year" :key="`${y}-year`" class="category">{{ year }},</h5>
-            <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }}</h5>
-          </div>
-            <a href="#">
+            <div class="element-details">
+                <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }} /</h5>
+                <h5 v-for="(year, y) in element.year" :key="`${y}-year`" class="category">{{ year }} /</h5>
+                <h5 class="category">{{ element.category }} /</h5>
+                <h5 class="category">{{ element.venue }}</h5>
+            </div>
+            <a :href="element.link">
               <h1>{{ element.title }}<span><img src="../assets/share-arrow.svg"/></span></h1>
             </a>
         </div>
@@ -47,7 +47,7 @@ export default {
 .events {
   .container {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
 
     .element-details {
       display: inline-flex;
@@ -59,8 +59,8 @@ export default {
     h1 > span {
       display: inline-block;
       img {
-        margin-left: $margin;
-        width: 50%;
+        margin-left: $margin * 2;
+        width: 30%;
       }
     }
   }

@@ -50,6 +50,7 @@ export default {
   .container {
     width: 100%;
     display: inline-flex;
+    flex-wrap: wrap;
 
     .project-container:hover {
       .soon {
@@ -65,7 +66,8 @@ export default {
     .project-container {
       margin: 0 $margin;
       padding-left: 10px;
-      width: calc(100% / 3);
+      margin-bottom: 10%;
+      width: calc(100% / 3.2);
 
       &.soon {
        pointer-events: none;
@@ -81,6 +83,7 @@ export default {
 
       img {
         width: 100%;
+        border: 0.5 solid #eee;
 
         &.soon {
           width: 40%;

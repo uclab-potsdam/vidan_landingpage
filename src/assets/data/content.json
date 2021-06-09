@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Inter...what? Intersectionality!",
+      "category": "project",
+      "description": "Same qualification. Same resume. Same application. Why is Sandra invited for the job interview but Meryem is not? A visual introduction into the topics of intersectionality, discrimination and privilege.",
+      "link": "https://uclab.fh-potsdam.de/intervis/",
+      "img": "intervis.png"
+    },
+    {
       "title": "Touch Touch Swipe",
       "category": "project",
       "description": "How are our personal relationships mirrored in our Instagram feed? What makes us invest our valuable time into using the app each and every day? With the project ‘touch, touch, swipe’, we aimed to investigate these questions.",
@@ -23,6 +30,14 @@
     }
   ],
   "events": [
+    {
+      "title": "Digital go-alongs: recounting individual journeys through personal data as journalistic stories / C + J 2021",
+      "category": "Conference",
+      "venue": "Northwestern University",
+      "year": [2021],
+      "authors": ["Morini F.", "Pomerance J.", "Meide A.", "Hönig T.", "Quân T.", "Dörk M. & Appelgren E"],
+      "link": "https://cj2021.northeastern.edu/schedule-and-program/"
+    }
   ],
   "calls": [
     {
@@ -54,6 +69,10 @@
     },
     {
       "name": "Meraj Sherafi",
+      "role": "Student researcher"
+    },
+    {
+      "name": "Hannah Schwan",
       "role": "Student researcher"
     }
   ]
