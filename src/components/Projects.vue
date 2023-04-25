@@ -66,7 +66,7 @@ export default {
     .project-container {
       margin: 0 $margin;
       padding-left: 10px;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       width: calc(100% / 3.2);
 
       &.soon {
@@ -83,19 +83,21 @@ export default {
 
       img {
         width: 100%;
-        border: 0.5 solid #eee;
+        border: 0.5px solid #eee;
 
         &.soon {
           width: 40%;
           margin-top: $margin;
           opacity: 0.5;
           transition: opacity 1s;
+          border: none;
         }
 
         &.arrow {
-          width: 40%;
+          max-width: 20%;
           margin-top: $margin;
           transition: margin-left 1s;
+          border: none;
         }
       }
 

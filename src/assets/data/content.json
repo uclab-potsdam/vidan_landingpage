@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "title": "Klimakarten",
+      "category": "project",
+      "description": "In collaboration with the newspaper taz, we designed and produced both physical and digital postcards containing visualizations covering various aspects of climate protection and mitigation in Germany.",
+      "link": "https://taz.de/taz-Datenprojekt-zum-Klimaschutz/!5898240/",
+      "img": "klimakarten.png"
+    },
+    {
+      "title": "Instavis",
+      "category": "course",
+      "description": "How can we bring data visualization to Instagram? What are successful aesthetic choices and tools to stop our social media readers from scrolling further? “Instavis” is a laboratory for data journalism done on Instagram.",
+      "link": "https://fhp.incom.org/workspace/9499/about",
+      "img": "instavis.png"
+    },
+    {
+      "title": "Temporal Topologies",
+      "category": "project",
+      "description": "With the Temporal Topologies project we are attempting to support humanistic and hermeneutic approaches to temporality and chronology by creating graphical tools in which to create, display, analyze, and interpret temporal models.",
+      "link": "https://www.anthropocene-curriculum.org/anthropogenic-markers/combustion/contribution/combustion-products-as-markers-for-the-anthropocene",
+      "img": "dmacp.png"
+    },
+    {
+      "title": "Wohin das Geld fließt",
+      "category": "project",
+      "description": "Germany is one of the largest donors to water projects worldwide. For this project, we supported journalists at taz in creating micro-narratives driven by data visualization within the wider frame of articles.",
+      "link": "https://taz.de/Entwicklungshilfe-fuer-Wasserprojekte/!5808097/ ",
+      "img": "taz-water.png"
+    },
+    {
       "title": "Inter...what? Intersectionality!",
       "category": "project",
       "description": "Same qualification. Same resume. Same application. Why is Sandra invited for the job interview but Meryem is not? A visual introduction into the topics of intersectionality, discrimination and privilege.",
@@ -27,12 +55,74 @@
       "description": "Commuting is a common, daily experience. Often labeled as an annoying and demanding practice, it is becoming a more and more present aspect in our lives. What can we learn from who is commuting everyday?",
       "link": "https://uclab.fh-potsdam.de/commutingstories/",
       "img": "commuting.png"
+    },
+    {
+      "title": "Times of a Square",
+      "category": "experiment",
+      "description": "Berlin is a heterogeneous, multifaceted, and busy city, in which everything seems to happen at the same time. Time, indeed, plays a fundamental role in shaping the city and the way citizens live it. What if we could read the city's time like we read a book?",
+      "link": "https://uclab.fh-potsdam.de/rosenthaler/",
+      "img": "times.png"
+    },
+    {
+      "title": "The Anti-Wishcycling Guide",
+      "category": "experiment",
+      "description": "Same qualification. Same resume. Same application. Why is Sandra invited for the job interview but Meryem is not? A visual introduction into the topics of intersectionality, discrimination and privilege.",
+      "link": "https://uclab.fh-potsdam.de/wimmelvis/wimmelbild/",
+      "img": "wimmel.png"
     }
   ],
   "events": [
+        {
+      "title": "Attitudinal effects of data visualizations and illustrations in data stories",
+      "category": "Publication",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
+      "year": [2023],
+      "authors": ["Garretón M.", "Morini F.", "Celhay P.", "Dörk M.", "Parra D."],
+      "link": "https://doi.org/10.1109/TVCG.2023.3248319"
+     },
+    {
+      "title": "Data Journalism as “Terra Incognita”: Newcomers’ Tensions in Shifting Towards Data Journalism Epistemology",
+      "category": "Publication",
+      "venue": "Journalism Practice",
+      "year": [2023],
+      "authors": ["Morini F."],
+      "link": "https://doi.org/10.1080/17512786.2023.2185656"
+     },
+      {
+      "title": "From shock to shift: Beteiligung von Zeitungsleser*innen in partizipativen, mehrkanaligen Datenvisualisierungen von Klimazukünften",
+      "category": "Conference presentation",
+      "venue": "NIAM 2023",
+      "year": [2023],
+      "authors": ["Morini F.", "Eschenbacher A.", "Hartmann J."],
+      "link": "https://www.news-infographics-analytics-maps.media/2023_agenda.html"
+     },
+    {
+      "title": "From shock to shift: Engaging newspaper readers in participatory, multi-channel data visualizations of climate futures",
+      "category": "Conference Poster",
+      "venue": "un:real spaces of interaction",
+      "year": [2022],
+      "authors": ["Morini F.", "Eschenbacher A.", "Hartmann J."],
+      "link": "https://un-real.digital/"
+    },
+    {
+      "title": "Sensing What’s New: Considering Ethics When Using Sensor Data in Journalistic Practices",
+      "category": "Publication",
+      "venue": "Digital Journalism",
+      "year": [2022],
+      "authors": ["Morini F.", "Dörk M.", "Appelgren E."],
+      "link": "https://doi.org/10.1080/21670811.2022.2134161"
+    },
+    {
+      "title": "Temporal Topologies: Inflecting the telling and the told of historical narratives",
+      "category": "Panel",
+      "venue": "DH2022",
+      "year": [2022],
+      "authors": [ "Dörk M.", "Morini F.", "Drucker, J.", "LaCelle-Peterson N.", "Rinderlin J.", "Barker E.", "Rosol C.", "Wintergrün D."],
+      "link": "https://dh2022.adho.org/program/presentations"
+    },
     {
       "title": "Digital go-alongs: recounting individual journeys through personal data as journalistic stories / C + J 2021",
-      "category": "Conference",
+      "category": "Conference presentation",
       "venue": "Northwestern University",
       "year": [2021],
       "authors": ["Morini F.", "Pomerance J.", "Meide A.", "Hönig T.", "Quân T.", "Dörk M. & Appelgren E"],
@@ -73,6 +163,22 @@
     },
     {
       "name": "Hannah Schwan",
+      "role": "Student researcher"
+    },
+    {
+      "name": "Anna Eschenbacher",
+      "role": "Student researcher"
+    },
+    {
+      "name": "Johanna Hartmann",
+      "role": "Student researcher"
+    },
+    {
+      "name": "Kerstin Humm",
+      "role": "Student researcher"
+    },
+    {
+      "name": "Mariana Reinhardt",
       "role": "Student researcher"
     }
   ]

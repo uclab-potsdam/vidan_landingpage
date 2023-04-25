@@ -59,11 +59,12 @@ export default {
   }
 
   .partners-funding {
-    display: inline-flex;
-    margin-top: 10%;
+    // display: inline-flex;
+    margin-top: 5%;
 
     .section {
       margin-right: $margin * 4;
+      margin-top: 5%;
 
       .label {
         border-bottom: 1px solid black;

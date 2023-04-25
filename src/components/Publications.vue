@@ -7,7 +7,7 @@
       </div>
       <!-- Happening only if data are found in the json events part-->
       <div v-if="events.length !== 0">
-        <div v-for="(element, e) in events" :key="e">
+        <div v-for="(element, e) in events" :key="e" class="element-container">
             <div class="element-details">
                 <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }} /</h5>
                 <h5 v-for="(year, y) in element.year" :key="`${y}-year`" class="category">{{ year }} /</h5>
@@ -48,6 +48,15 @@ export default {
   .container {
     width: 100%;
     margin-top: 5%;
+
+    .element-container {
+      margin: 2.5% 0 2.5% 0;
+      border-bottom: 1px dashed black;
+
+      a > h1 {
+        padding-right: 2%;
+      }
+    }
 
     .element-details {
       display: inline-flex;
