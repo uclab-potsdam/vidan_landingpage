@@ -78,7 +78,7 @@ export default {
 
       img {
         width: 100%;
-        border: 0.5px solid #eee;
+        border: 1px solid #ddd;
 
         &.soon {
           width: 40%;

@@ -36,6 +36,13 @@
       "img": "taz-water.png"
     },
     {
+      "title": "The slow death of water",
+      "category": "project",
+      "description": "A data story about the water crisis in Chile featuring illustrations and visualizations representing the historical development of preciptation, differences between urban and rural regions, and the institutions that are responsible.",
+      "link": "https://agua.visdatos.cl/english/",
+      "img": "watercrisis.png"
+    },
+    {
       "title": "Inter...what? Intersectionality!",
       "category": "project",
       "description": "Same qualification. Same resume. Same application. Why is Sandra invited for the job interview but Meryem is not? A visual introduction into the topics of intersectionality, discrimination and privilege.",
@@ -175,15 +182,19 @@
     },
     {
       "name": "Jonas Arndt",
-      "role": "Research associate (2019 – 2021)"
+      "role": "Research associate (2019–2021)"
     },
     {
+      "name": "Manuela Garretón",
+      "role": "Associated researcher (2021–2023)"
+    },		
+    {
       "name": "Tobias Kauer",
-      "role": "Research associate (2020)"
+      "role": "Associated researcher (2020)"
     },
     {
       "name": "Lena Zagora",
-      "role": "Student researcher (2019 – 2021)"
+      "role": "Student researcher (2019–2021)"
     },
     {
       "name": "Meraj Sherafi",
@@ -191,23 +202,23 @@
     },
     {
       "name": "Hannah Schwan",
-      "role": "Student researcher (2021)"
+      "role": "Student researcher (2021–2022)"
     },
     {
       "name": "Anna Eschenbacher",
-      "role": "Student researcher (2022 – 2023)"
+      "role": "Student researcher (2022–2023)"
     },
     {
       "name": "Johanna Hartmann",
-      "role": "Student researcher (2022 – 2023)"
+      "role": "Student researcher (2022–2023)"
     },
     {
       "name": "Kerstin Humm",
-      "role": "Student researcher (2022 – 2023)"
+      "role": "Student researcher (2022–2023)"
     },
     {
       "name": "Mariana Reinhardt",
-      "role": "Student researcher (2022 – 2023)"
+      "role": "Student researcher (2022–2023)"
     }
   ]
 }
