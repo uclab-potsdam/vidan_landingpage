@@ -15,6 +15,13 @@
       "img": "instavis.png"
     },
     {
+      "title": "Inequality in the climate crisis",
+      "category": "project",
+      "description": "The climate crisis is an anxiety-provoking topic for future generations. These visualizations explore the intersection between privilege and climate anxiety, showing how people from the Gloabal South are heavily affected by climate anxiety.",
+      "link": "https://www.instagram.com/p/CYgGdsvIk8G/",
+      "img": "anxiety.png"
+    },
+    {
       "title": "Temporal Topologies",
       "category": "project",
       "description": "With the Temporal Topologies project we are attempting to support humanistic and hermeneutic approaches to temporality and chronology by creating graphical tools in which to create, display, analyze, and interpret temporal models.",
@@ -36,6 +43,13 @@
       "img": "intervis.png"
     },
     {
+      "title": "Planetary Scrollytelling",
+      "category": "course",
+      "description": "Students of communication and interface design developed visual data essays about system earth in the age of the anthropocene offering practical opportunities for action in critical times.",
+      "link": "https://infovis.fh-potsdam.de/planetscroll/",
+      "img": "planetary.png"
+    },
+    {
       "title": "Touch Touch Swipe",
       "category": "project",
       "description": "How are our personal relationships mirrored in our Instagram feed? What makes us invest our valuable time into using the app each and every day? With the project ‘touch, touch, swipe’, we aimed to investigate these questions.",
@@ -50,11 +64,25 @@
       "img": "datainterviews.png"
     },
     {
+      "title": "Scrollytelling for beginners",
+      "category": "tutorials",
+      "description": "Scrollytelling for beginners is a collection of code, resources and tutorials for the FH Potsdam students to help them dive in the topic of scrollytelling and scroll controlled narratives.",
+      "link": "https://github.com/uclab-potsdam/scrollytelling-beginners",
+      "img": "SFB.png"
+    },
+    {
       "title": "Commuting Stories",
       "category": "project",
       "description": "Commuting is a common, daily experience. Often labeled as an annoying and demanding practice, it is becoming a more and more present aspect in our lives. What can we learn from who is commuting everyday?",
       "link": "https://uclab.fh-potsdam.de/commutingstories/",
       "img": "commuting.png"
+    },
+    {
+      "title": "Feminist Scrollytelling",
+      "category": "course",
+      "description": "An interdisciplinary course combining editorial design and information visualization to create visual data essays that communicate complex issues pertaining to discrimination, systemic inequalities and marginalization.",
+      "link": "https://infovis.fh-potsdam.de/femscroll/",
+      "img": "feminist.png"
     },
     {
       "title": "Times of a Square",
@@ -66,7 +94,7 @@
     {
       "title": "The Anti-Wishcycling Guide",
       "category": "experiment",
-      "description": "Same qualification. Same resume. Same application. Why is Sandra invited for the job interview but Meryem is not? A visual introduction into the topics of intersectionality, discrimination and privilege.",
+      "description": "According to environmental scientists, wishcycling consists in putting something in the recycling bin and hoping it will be recycled, even if there is little evidence to confirm this assumption. To help you stop, we prepared the ultimate Wishcycling guide for Berlin.",
       "link": "https://uclab.fh-potsdam.de/wimmelvis/wimmelbild/",
       "img": "wimmel.png"
     }
@@ -77,7 +105,7 @@
       "category": "Publication",
       "venue": "IEEE Transactions on Visualization and Computer Graphics",
       "year": [2023],
-      "authors": ["Garretón M.", "Morini F.", "Celhay P.", "Dörk M.", "Parra D."],
+      "authors": ["Manuela Garretón", "Francesca Morini", "Pablo Celhay", "Marian Dörk", "Dennis Parra"],
       "link": "https://doi.org/10.1109/TVCG.2023.3248319"
      },
     {
@@ -85,7 +113,7 @@
       "category": "Publication",
       "venue": "Journalism Practice",
       "year": [2023],
-      "authors": ["Morini F."],
+      "authors": ["Francesca Morini"],
       "link": "https://doi.org/10.1080/17512786.2023.2185656"
      },
       {
@@ -93,7 +121,7 @@
       "category": "Conference presentation",
       "venue": "NIAM 2023",
       "year": [2023],
-      "authors": ["Morini F.", "Eschenbacher A.", "Hartmann J."],
+      "authors": ["Francesca Morini", "Anna Eschenbacher", "Johanna Hartmann"],
       "link": "https://www.news-infographics-analytics-maps.media/2023_agenda.html"
      },
     {
@@ -101,7 +129,7 @@
       "category": "Conference Poster",
       "venue": "un:real spaces of interaction",
       "year": [2022],
-      "authors": ["Morini F.", "Eschenbacher A.", "Hartmann J."],
+      "authors": ["Francesca Morini", "Anna Eschenbacher", "Johanna Hartmann"],
       "link": "https://un-real.digital/"
     },
     {
@@ -109,7 +137,7 @@
       "category": "Publication",
       "venue": "Digital Journalism",
       "year": [2022],
-      "authors": ["Morini F.", "Dörk M.", "Appelgren E."],
+      "authors": ["Francesca Morini", "Marian Dörk", "Ester Appelgren"],
       "link": "https://doi.org/10.1080/21670811.2022.2134161"
     },
     {
@@ -117,15 +145,23 @@
       "category": "Panel",
       "venue": "DH2022",
       "year": [2022],
-      "authors": [ "Dörk M.", "Morini F.", "Drucker, J.", "LaCelle-Peterson N.", "Rinderlin J.", "Barker E.", "Rosol C.", "Wintergrün D."],
+      "authors": [ "Marian Dörk", "Francesca Morini", "Johanna Drucker", "Nathaniel LaCelle-Peterson", "Jonas Rinderlin", "Elton Barker", "Christoph Rosol", "Dirk Wintergrün"],
       "link": "https://dh2022.adho.org/program/presentations"
+    },
+    {
+      "title": "Disclosure as a critical-feminist design practice for Web-based data stories",
+      "category": "Publication",
+      "venue": "First Monday",
+      "year": [2022],
+      "authors": [ "Hannah Schwan", "Jonas Arndt", "Marian Dörk"],
+      "link": "https://doi.org/10.5210/fm.v27i11.12712 "
     },
     {
       "title": "Digital go-alongs: recounting individual journeys through personal data as journalistic stories / C + J 2021",
       "category": "Conference presentation",
       "venue": "Northwestern University",
       "year": [2021],
-      "authors": ["Morini F.", "Pomerance J.", "Meide A.", "Hönig T.", "Quân T.", "Dörk M. & Appelgren E"],
+      "authors": ["Francesca Morini", "Jona Pomerance", "Anna Meide", "Tim Hönig", "Tan-Doi Quân", "Marian Dörk & Ester Appelgren"],
       "link": "https://cj2021.northeastern.edu/schedule-and-program/"
     }
   ],
@@ -142,44 +178,44 @@
       "role": "Research and project lead"
     },
     {
-      "name": "Jonas Rogge",
-      "role": "Research associate"
-    },
-    {
       "name": "Francesca Morini",
       "role": "Research associate"
     },
     {
+      "name": "Jonas Arndt",
+      "role": "Research associate (2019 – 2021)"
+    },
+    {
       "name": "Tobias Kauer",
-      "role": "Research associate"
+      "role": "Research associate (2020)"
     },
     {
       "name": "Lena Zagora",
-      "role": "Student researcher"
+      "role": "Student researcher (2019 – 2021)"
     },
     {
       "name": "Meraj Sherafi",
-      "role": "Student researcher"
+      "role": "Student researcher (2020)"
     },
     {
       "name": "Hannah Schwan",
-      "role": "Student researcher"
+      "role": "Student researcher (2021)"
     },
     {
       "name": "Anna Eschenbacher",
-      "role": "Student researcher"
+      "role": "Student researcher (2022 – 2023)"
     },
     {
       "name": "Johanna Hartmann",
-      "role": "Student researcher"
+      "role": "Student researcher (2022 – 2023)"
     },
     {
       "name": "Kerstin Humm",
-      "role": "Student researcher"
+      "role": "Student researcher (2022 – 2023)"
     },
     {
       "name": "Mariana Reinhardt",
-      "role": "Student researcher"
+      "role": "Student researcher (2022 – 2023)"
     }
   ]
 }

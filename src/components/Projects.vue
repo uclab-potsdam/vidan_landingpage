@@ -1,6 +1,6 @@
 <template>
   <div class="projects section-container">
-    <Separator title="Projects and Activities"/>
+    <Separator title="Activities / Outputs"/>
     <div class="container">
       <div v-for="(project, p) in projects" :key="p" class="project-container" :class="{soon: !project.link.length}">
         <a :href="project.link">
@@ -57,15 +57,10 @@ export default {
         transition: opacity 1s;
         opacity: 1;
       }
-      .arrow {
-        transition: margin-left 1s;
-        margin-left: 60%;
-      }
     }
 
     .project-container {
       margin: 0 $margin;
-      padding-left: 10px;
       margin-bottom: 5%;
       width: calc(100% / 3.2);
 

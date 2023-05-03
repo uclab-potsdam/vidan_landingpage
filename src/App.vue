@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <meta property="og:url" content="https://uclab.fh-potsdam.de/vidan/">
     <div class="content-body" v-scroll="scrollPosition" :style="`--text-axis:${scrollValue};`">
       <div id="logo" class="container">
         <div class="logo-container" @click="scrollTop()">
@@ -11,7 +12,7 @@
         <div id="content" class="container">
           <div class="header">
             <p class="description">
-              Collaborative research on <i>Visual and Dynamic Arrangements of Narratives</i>
+              Collaborative research on <i>Visual and Dynamic Arrangements of Narratives</i> from 2019 until 2023
               at UCLAB, FH Potsdam —
               <a href="https://twitter.com/hashtag/vidanfhp?src=hashtag_click">
                 #vidanfhp
@@ -21,7 +22,7 @@
           <!-- Only showing component if data are present -->
           <Projects v-if="Content.projects.length"/>
           <Publications v-if="Content.events.length"/>
-          <Calls v-if="Content.calls.length"/>
+          <!-- <Calls v-if="Content.calls.length"/> -->
           <Description/>
           <Team/>
         </div>
@@ -33,7 +34,7 @@
 import Logo from './components/Logo.vue'
 import Projects from './components/Projects.vue'
 import Publications from './components/Publications.vue'
-import Calls from './components/Calls.vue'
+// import Calls from './components/Calls.vue'
 import Description from './components/Description.vue'
 import Team from './components/Team.vue'
 
@@ -45,7 +46,7 @@ export default {
     Logo,
     Projects,
     Publications,
-    Calls,
+    // Calls,
     Description,
     Team
   },
@@ -115,6 +116,7 @@ export default {
 
     &#content {
       .header {
+        // margin-bottom: 5%;
         p.description {
           margin: 0;
           margin-bottom: 10px;
@@ -125,9 +127,9 @@ export default {
         }
       }
       width: 90%;
-
       margin-left: 2%;
       padding-left: 2%;
+      margin-top: 2%;
 
       .section-container {
         margin-bottom: 10%;

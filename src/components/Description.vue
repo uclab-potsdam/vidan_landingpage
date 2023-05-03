@@ -1,6 +1,6 @@
 <template>
   <div class="description section-container">
-    <Separator title="About"/>
+    <Separator title="About Project"/>
     <div class="container">
         <p class="description vidan-description">
             At the intersection of data visualization, digital storytelling,
@@ -57,6 +57,7 @@ export default {
 .description {
     padding-right: 0.5em;
   .container {
+    width: 96%;
     .vidan-description {
         column-count: 2;
         column-gap: 50px;

@@ -8,15 +8,15 @@
       <!-- Happening only if data are found in the json events part-->
       <div v-if="events.length !== 0">
         <div v-for="(element, e) in events" :key="e" class="element-container">
+            <a :href="element.link">
+              <h2>{{ element.title }}<span><img src="../assets/share-arrow.svg"/></span></h2>
+            </a>
             <div class="element-details">
-                <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }} /</h5>
-                <h5 v-for="(year, y) in element.year" :key="`${y}-year`" class="category">{{ year }} /</h5>
-                <h5 class="category">{{ element.category }} /</h5>
+                <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }},</h5>
+                <h5 v-for="(year, y) in element.year" :key="`${y}-year`" class="category">({{ year }})</h5>
+                <h5 class="category">{{ element.category }} for</h5>
                 <h5 class="category">{{ element.venue }}</h5>
             </div>
-            <a :href="element.link">
-              <h1>{{ element.title }}<span><img src="../assets/share-arrow.svg"/></span></h1>
-            </a>
         </div>
       </div>
     </div>
@@ -50,26 +50,54 @@ export default {
     margin-top: 5%;
 
     .element-container {
-      margin: 2.5% 0 2.5% 0;
+      width: 95%;
+      margin: 2.5% 0 0% 0;
       border-bottom: 1px dashed black;
 
-      a > h1 {
+      a > h2 {
         padding-right: 2%;
+        margin-bottom: 1px;
       }
     }
 
     .element-details {
       display: inline-flex;
+      flex-wrap: wrap;
+      margin-bottom: 2%;
+      width: 100%;
 
       h5 {
-        padding-left: $margin * 2;
+        padding-right: 5px;
+        padding-top: 10px;
+        white-space:nowrap;
       }
     }
-    h1 > span {
+
+    h2 > span {
       display: inline-block;
       img {
         margin-left: $margin * 2;
-        width: 30%;
+        width: 25%;
+      }
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  .events {
+    .container {
+      .element-details {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        // display: initial;
+
+        h5 {
+          padding-top: 5px;
+        }
+
+        .category {
+          font-size: 12px;
+        }
       }
     }
   }
