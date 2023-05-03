@@ -60,7 +60,7 @@ export default {
     }
 
     .project-container {
-      margin: 0 $margin;
+      margin: 0 $margin 0 0;
       margin-bottom: 5%;
       width: calc(100% / 3.2);
 
@@ -90,7 +90,7 @@ export default {
 
         &.arrow {
           max-width: 20%;
-          margin-top: $margin;
+          margin-bottom: $margin;
           transition: margin-left 1s;
           border: none;
         }

@@ -9,12 +9,15 @@
       <div v-if="events.length !== 0">
         <div v-for="(element, e) in events" :key="e" class="element-container">
             <a :href="element.link">
-              <h2>{{ element.title }}<span><img src="../assets/share-arrow.svg"/></span></h2>
+              <h2>{{ element.title }}</h2>
             </a>
             <div class="element-details">
-                <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }},</h5>
+                <!-- <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">{{ author }},</h5> -->
+                <h5 v-for="(author, a) in element.authors" :key="`${a}-author`" class="category">
+                  {{ author }}<span v-if="a < element.authors.length - 1">,</span>
+                </h5>                
                 <h5 v-for="(year, y) in element.year" :key="`${y}-year`" class="category">({{ year }})</h5>
-                <h5 class="category">{{ element.category }} for</h5>
+                <!-- <h5 class="category">{{ element.category }} for</h5> -->
                 <h5 class="category">{{ element.venue }}</h5>
             </div>
         </div>
@@ -36,7 +39,7 @@ export default {
     return {
       events: Content.events
     }
-  }
+  },
 }
 </script>
 

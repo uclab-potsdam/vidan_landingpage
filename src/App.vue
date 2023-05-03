@@ -126,8 +126,9 @@ export default {
           }
         }
       }
-      width: 90%;
+      width: 92%;
       margin-left: 2%;
+      margin-right: 2%;
       padding-left: 2%;
       margin-top: 2%;
 

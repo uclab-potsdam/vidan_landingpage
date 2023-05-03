@@ -102,7 +102,6 @@
   "events": [
         {
       "title": "Attitudinal effects of data visualizations and illustrations in data stories",
-      "category": "Publication",
       "venue": "IEEE Transactions on Visualization and Computer Graphics",
       "year": [2023],
       "authors": ["Manuela Garretón", "Francesca Morini", "Pablo Celhay", "Marian Dörk", "Dennis Parra"],
@@ -110,7 +109,6 @@
      },
     {
       "title": "Data Journalism as “Terra Incognita”: Newcomers’ Tensions in Shifting Towards Data Journalism Epistemology",
-      "category": "Publication",
       "venue": "Journalism Practice",
       "year": [2023],
       "authors": ["Francesca Morini"],
@@ -118,48 +116,42 @@
      },
       {
       "title": "From shock to shift: Beteiligung von Zeitungsleser*innen in partizipativen, mehrkanaligen Datenvisualisierungen von Klimazukünften",
-      "category": "Conference presentation",
-      "venue": "NIAM 2023",
+      "venue": "Presentation at News-Infographics-Analytics-Maps (NIAM 2023)",
       "year": [2023],
       "authors": ["Francesca Morini", "Anna Eschenbacher", "Johanna Hartmann"],
       "link": "https://www.news-infographics-analytics-maps.media/2023_agenda.html"
      },
     {
       "title": "From shock to shift: Engaging newspaper readers in participatory, multi-channel data visualizations of climate futures",
-      "category": "Conference Poster",
-      "venue": "un:real spaces of interaction",
+      "venue": "Presentation at un:real spaces of interaction",
       "year": [2022],
       "authors": ["Francesca Morini", "Anna Eschenbacher", "Johanna Hartmann"],
       "link": "https://un-real.digital/"
     },
     {
       "title": "Sensing What’s New: Considering Ethics When Using Sensor Data in Journalistic Practices",
-      "category": "Publication",
-      "venue": "Digital Journalism",
+      "venue": "Digital Journalism, 11:3, 465-483",
       "year": [2022],
       "authors": ["Francesca Morini", "Marian Dörk", "Ester Appelgren"],
       "link": "https://doi.org/10.1080/21670811.2022.2134161"
     },
     {
       "title": "Temporal Topologies: Inflecting the telling and the told of historical narratives",
-      "category": "Panel",
-      "venue": "DH2022",
+      "venue": "Panel discussion at the Digital Humanities conference (DH2022)",
       "year": [2022],
       "authors": [ "Marian Dörk", "Francesca Morini", "Johanna Drucker", "Nathaniel LaCelle-Peterson", "Jonas Rinderlin", "Elton Barker", "Christoph Rosol", "Dirk Wintergrün"],
       "link": "https://dh2022.adho.org/program/presentations"
     },
     {
       "title": "Disclosure as a critical-feminist design practice for Web-based data stories",
-      "category": "Publication",
-      "venue": "First Monday",
+      "venue": "First Monday, 27(11) ",
       "year": [2022],
       "authors": [ "Hannah Schwan", "Jonas Arndt", "Marian Dörk"],
       "link": "https://doi.org/10.5210/fm.v27i11.12712 "
     },
     {
-      "title": "Digital go-alongs: recounting individual journeys through personal data as journalistic stories / C + J 2021",
-      "category": "Conference presentation",
-      "venue": "Northwestern University",
+      "title": "Digital go-alongs: recounting individual journeys through personal data as journalistic stories",
+      "venue": "Presentation at Computation + Journalism Symposium 2021, Northwestern University",
       "year": [2021],
       "authors": ["Francesca Morini", "Jona Pomerance", "Anna Meide", "Tim Hönig", "Tan-Doi Quân", "Marian Dörk & Ester Appelgren"],
       "link": "https://cj2021.northeastern.edu/schedule-and-program/"
