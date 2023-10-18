@@ -107,14 +107,22 @@
     }
   ],
   "events": [
-		{
+    {
+      "title": "From shock to shift: Data visualization for constructive climate journalism",
+      "category": "Publication",
+      "venue": "2023 IEEE Visualization Conference (VIS), Melbourne, VIC, Australia",
+      "year": [2023],
+      "authors": ["Francesca Morini", "Anna Eschenbacher", "Johanna Hartmann", "Marian Dörk"],
+      "link": "https://uclab.fh-potsdam.de/wp/wp-content/uploads/morini2023klimakarten.pdf"
+     },
+    {
       "title": "Data Stories of Water: Studying the Communicative Role of Data Visualizations within Long-form Journalism",
       "venue": "Computer Graphics Forum (Proc. EuroVis)",
       "year": [2023],
       "authors": ["Manuela Garretón", "Francesca Morini", "Daniela Paz Moyano", "Gianna-Carina Grün", "Dennis Parra", "Marian Dörk"],
       "link": "https://diglib.eg.org/handle/10.1111/cgf14815"
      },
-		{
+    {
       "title": "Attitudinal effects of data visualizations and illustrations in data stories",
       "venue": "IEEE Transactions on Visualization and Computer Graphics",
       "year": [2023],
@@ -125,7 +133,7 @@
       "title": "Data Journalism as “Terra Incognita”: Newcomers’ Tensions in Shifting Towards Data Journalism Epistemology",
       "venue": "Journalism Practice",
       "year": [2023],
-      "authors": ["Francesca Morini"],
+      "authors": ["Francesca Morini", "Anna Eschenbacher", "Johanna Hartmann", "Marian Dörk"],
       "link": "https://doi.org/10.1080/17512786.2023.2185656"
      },
       {
